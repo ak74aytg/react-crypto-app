@@ -1,0 +1,43 @@
+.exCard:hover{
+    transform: scale(1.1);
+}
+.exCard{
+    transition: all .1s ease-in;
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    width: 80%;
+    height: 36px !important;
+    border-radius: 5px 0 0 5px !important;
+    padding: 2px;
+}
+.button{
+    width: 10%;
+    height: 36px !important ; 
+    border-radius: 0 5px 5px 0 !important;
+}
+.input:focus {
+    outline: 0 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form{
+        width: 150px;
+    }
+    .input{
+        height: 29px !important;
+    }
+    .button{
+        height: 29px !important ; 
+    }
+  }
